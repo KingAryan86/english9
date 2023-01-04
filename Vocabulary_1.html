@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary lesson 1</title>
+    <link rel="stylesheet" href="./style/Vocabulary_1.css">
+</head>
+<body>
+    <style>
+        @font-face{
+        font-family:comic;
+        src:url("./style/Font/comic.ttf")
+    }
+    
+          .menuimg{
+              width:60px;
+              height:60px; 
+              padding-left:10px;
+              margin-top: 5px;
+          }
+          .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 1s;
+            padding-top: 60px;
+            font-family:comic;
+    
+          }
+          
+          .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #CBCBCB;
+            display: block;
+            transition: 0.2;
+          }
+          
+          .sidenav a:hover {
+            color: rgb(7,142,77);
+          }
+          
+          .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+          
+          @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+          /* 
+           */
+           .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 200px;
+    z-index: 1;
+    margin-left: 14%;
+    }
+    
+    .dropdown-content a {
+    color: #CBCBCB;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .dropdown-content a:hover {
+    background-color: #111;
+    }
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #111;}
+          </style> 
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="./lessons.html">Lessons</a>
+      <div class="dropdown-content">
+        <a href="./L1.html">Lesson 1</a>
+        <a href="./L2.html">Lesson 2</a>
+        <a href="./L3.html">Lesson 3</a>
+        <a href="./L4.html">Lesson 4</a>
+        <a href="./L5.html">Lesson 5</a>
+        <a href="./L6.html">Lesson 6</a>
+      </div>
+    </div>
+    <a href="./irregular_verbs.html">Irregular Verbs</a>
+    <a href="./livereading.html">Live Reading</a>
+    <a class="aboutus" href="aboutus.html">About us</a>
+  </div>
+      <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+          <img onclick="openNav()" src="./style/pic/menu.png" class="menuimg" title="Menu">
+          <h1 class="pagetitle">Vocabulary Unit 1</h1>
+<!-- Angry -->
+        <div class="line1-d" id="div-angry">
+            <img id="img-angry" src="./Lesson1/Vocabulary/angry.jpg">
+            <p id="text">
+                <span class="eng-text">
+                    Angry 
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                عصبانی (صفت)
+                </span>
+            </p>
+        </div>
+<!-- Brave -->
+        <div class="line1-d"id="div-brave">
+            <img id="img-brave" src="./Lesson1/Vocabulary/brave.jpg">
+            <p id="text">
+                <span class="eng-text">
+                    Brave
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                شجاع (صفت)
+                </span>
+            </p>
+        </div>
+<!-- Careless -->
+        <div  class="line1-d"id="div-careless">
+            <img id="img-careless" src="./Lesson1/Vocabulary/careless.jpg">
+            <p id="text">
+                <span class="eng-text">
+                    Careless
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                حواس پرت (صفت)
+            </span>
+            </p>
+        </div>
+<!-- cruel -->
+        <div class="line1-d"id="div-cruel">
+        <img id="img-cruel" src="./Lesson1/Vocabulary/cruel.jpg">
+        <p id="text">
+            <span class="eng-text">
+                Cruel
+                (adj)
+            </span>
+            <br>
+            <span class="farsi-text">
+            ظالمانه (صفت)
+        </span>
+        </p>
+        </div>
+<!-- Funny -->          
+        <div class="line2-d" id="div-funny"> 
+            <img id="img-funny" src="./Lesson1/Vocabulary/funny.png">
+            <p id="text">
+                <span class="eng-text">
+                    Funny
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                خنده دار (صفت)
+            </span>
+            </p>
+        </div>
+<!-- Neat -->
+        <div class="line2-d" id="div-neat">
+                <img id="img-neat" src="./Lesson1/Vocabulary/neat.jpg">
+                <p id="text">
+                    <span class="eng-text">
+                       Neat
+                        (adj)
+                    </span>
+                    <br>
+                    <span class="farsi-text">
+                     مرتب (صفت)
+                </span>
+                </p>
+        </div>
+<!-- Nervous -->
+        <div  class="line2-d"id="div-nervous">
+                <img id="img-nervous" src="./Lesson1/Vocabulary/nervous.png">
+                <p id="text">
+                    <span class="eng-text">
+                        Nervous
+                         (adj)
+                     </span>
+                     <br>
+                     <span class="farsi-text">
+                     اضطراب (صفت)
+                    </span>
+                </p>
+        </div>
+<!-- Quiet -->
+        <div class="line2-d"id="div-quiet">
+                <img id="img-quiet" src="./Lesson1/Vocabulary/quiet.png">
+                <p id="text">
+                    <span class="eng-text">
+                        Quiet
+                         (adj)
+                     </span>    
+                     <br>
+                     <span class="farsi-text">
+                     ساکت (صفت)
+                    </span>
+                </p>
+        </div>
+<!-- Rude -->      
+        <div class="line3-d" id="div-rude">
+            <img id="img-rude" src="./Lesson1/Vocabulary/rude.jpg">
+            <p id="text">
+                <span class="eng-text">
+                    Rude
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                بی ادب (صفت)
+            </span>
+            </p>
+        </div>
+<!-- Selfish -->
+        <div class="line3-d" id="div-selfish">
+            <img id="img-selfish" src="./Lesson1/Vocabulary/selfish.jpg">
+            <p id="text">
+                <span class="eng-text">
+                    Selfish
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                خود خواه (صفت)
+            </span>
+            </p>
+        </div>
+    <!-- Hard working -->
+        <div class="line3-d" id="div-hardwork">
+            <img id="img-hardwork" src="./Lesson1/Vocabulary/hardworking.png">
+            <p id="text">
+                <span class="eng-text">
+                    Hardworking
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                سخت کوش (صفت)
+            </span>
+            </p>
+        </div>
+<!-- Lazy -->
+        <div class="line3-d" id="div-lazy">
+                <img id="img-lazy" src="./Lesson1/Vocabulary/lazy.jpg">
+                <p id="text">
+                    <span class="eng-text">
+                        Lazy
+                        (adj)
+                    </span>
+                    <br>
+                    <span class="farsi-text">
+                    تنبل (صفت)
+                </span>
+                </p>
+        </div>
+<!-- Shy  -->
+        <div class="line4-d" id="div-shy">
+            <img id="img-shy" src="./Lesson1/Vocabulary/shy.jpg">
+            <p id="text">
+                <span class="eng-text">
+                    Shy
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                خجالتـی (صفت)
+            </span>
+            </p>
+        </div>
+<!-- Generous -->
+        <div class="line4-d" id="div-generous">
+            <img id="img-generous" src="./Lesson1/Vocabulary/generous.jpg">
+            <p id="text">
+                <span class="eng-text">
+                    Generous
+                    (adj)
+                </span>
+                <br>
+                <span class="farsi-text">
+                بخشنده (صفت)
+            </span>
+            </p>
+        </div>
+</body>
+</html>

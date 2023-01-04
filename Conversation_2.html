@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation lesson 2</title>
+    <link rel="stylesheet" href="./style/Conversation.css">
+    <img onclick="openNav()" src="./style/pic/menu.png" class="menuimg" title="Menu"> 
+
+</head>
+<body>
+  <style>
+    @font-face{
+    font-family:comic;
+    src:url("./style/Font/comic.ttf")
+}
+
+      .menuimg{
+          width:60px;
+          height:60px; 
+          padding-left:10px;
+          margin-top: 5px;
+      }
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 1s;
+        padding-top: 60px;
+        font-family:comic;
+
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #CBCBCB;
+        display: block;
+        transition: 0.2;
+      }
+      
+      .sidenav a:hover {
+        color: rgb(7,142,77);
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      /* 
+       */
+       .dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #111;
+min-width: 200px;
+z-index: 1;
+margin-left: 14%;
+}
+
+.dropdown-content a {
+color: #CBCBCB;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #111;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #111;}
+      </style> 
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="./lessons.html">Lessons</a>
+        <div class="dropdown-content">
+          <a href="./L1.html">Lesson 1</a>
+          <a href="./L2.html">Lesson 2</a>
+          <a href="./L3.html">Lesson 3</a>
+          <a href="./L4.html">Lesson 4</a>
+          <a href="./L5.html">Lesson 5</a>
+          <a href="./L6.html">Lesson 6</a>
+        </div>
+      </div>
+      <a href="./irregular_verbs.html">Irregular Verbs</a>
+      <a href="./livereading.html">Live Reading</a>
+      <a class="aboutus" href="aboutus.html">About us</a>
+    </div>
+  <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+<h1 class="pagetitle">Conversation Lesson 2</h1>
+    <!-- ENGLISH DIALOG -->
+    <div id="back1">
+    <div id="back2">
+        <p id="English">
+            Receptionist : Welcome to our hotel sir,how can I help you?
+            <br>
+            Tourist : My name is Paul Kress.I'm from Germany.I have a resevation here
+            <br>
+            Receptionist : I see! Are you staying here for two nights ?
+            <br>
+            Tourist : Yes,my wife and I are visiting Tehran for three days.
+            <br>
+            Receptionist : Where is she now ? I need to check her passport.
+            <br>
+            Tourist : She's standing over there,by the gift shop.Here is her passport.
+            <br>
+            Receptionist : Thank you.This is your key.It's room 213.Hope you enjoy your stay in Tehran.
+
+        </p>
+      </div>
+    </div>
+    <!-- PERSIAN DIALOG -->
+    <div id="back3">
+    <div id="back4">
+    <p id="Persian">
+        مسئول پذیرش : به هتل ما خوش آمدی آقا.چگونه میتوانم به شما کمک کنم؟
+        <br>
+        توریست : اسم من پاول کرس است.اهل آلمان هستم.من اینجا رزرو داشتم
+        <br>
+        مسئول پذیرش : بله دیدم! برای دو شب اینجا میمانید ؟
+        <br>
+        توریست : بله،من و همسرم سه روز برای دیدن تهران میمانیم
+        <br>
+        مسئول پذیرش : او الان کجاست ؟ من باید گذرنامه اش را بررسی کنم
+        <br>
+        توریست : آنجا ایستاده است.کنار مغازه کادو فروشی.گذرنامه اش اینجاست
+        <br>
+        مسئول پذیرش : ممنون،این هم کلید اتاق شما،اتاق شماره 213.امیدوارم از اقامت در تهران لذت ببرید
+
+        
+      </p>
+      </div>
+    </div>
+</body>
+</html>

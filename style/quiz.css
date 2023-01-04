@@ -1,0 +1,165 @@
+@font-face{
+    font-family:Roboto;
+    src:url("./style/Font/ROBOTO.TTF")
+}
+@font-face{
+    font-family:iransans;
+    src:url("./style/Font/IRANSANS.TTF")
+}
+.pagetitle{
+    font-family: Roboto;
+    text-align: center;
+    margin-top: -4.5vw;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #CBCBCB; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(7,142,77,0.65); 
+    border-radius:10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(7,142,77); 
+  }
+@media only screen and (min-width:768px){
+.qustion{
+    font-family:Roboto;
+    text-align: center;
+    margin-top: 5%;
+    font-size:42px;
+
+}
+.persiantext{
+    font-family: iransans;
+}
+.back{
+    text-align: center;
+    width:80%;
+    background-color: #CBCBCB;
+    border-radius:25px;
+    margin-left:10%;
+    box-shadow:0px 0px 15px rgb(7,142,77);
+}
+.option1{
+    width:32%;
+    font-family: Roboto;
+    font-size:34px;
+    border-radius:15px;
+    border:0px;
+    margin-bottom:4%;
+    margin-right:8%;
+}
+.option2{
+    width:32%;
+    font-family: Roboto;
+    font-size:34px;
+    border-radius:15px;
+    border:0px;
+    margin-bottom:4%;
+}
+.option3{
+    width:32%;
+    font-family: Roboto;
+    font-size:34px;
+    border-radius:15px;
+    border:0px;
+    margin-bottom:4%;
+    margin-right:8%;
+}
+.option4{
+    width:32%;
+    font-family: Roboto;
+    font-size:34px;
+    border-radius:15px;
+    margin-bottom:4%;
+    border:0px;
+}
+.option1:hover{
+    box-shadow: 0px 0px 14px rgb(7,142,77);
+}
+.option2:hover{
+    box-shadow: 0px 0px 14px rgb(7,142,77);
+}
+.option3:hover{
+    box-shadow: 0px 0px 14px rgb(7,142,77);
+}
+.option4:hover{
+    box-shadow: 0px 0px 14px rgb(7,142,77);
+}
+}
+@media only screen and (max-width:768px){
+    .back{
+        background-color: #CBCBCB;
+        border-radius:25px;
+        text-align: center;
+        width:80%;
+        margin-left: 10%;
+        box-shadow:0px 0px 15px rgb(7,142,77);
+    }
+    .qustion{
+        font-family:Roboto;
+        text-align: center;
+        margin-top: 5%;
+        font-size:28px;
+    }
+    .persiantext{
+        font-family: iransans;
+    }
+    .option1{
+        width:70%;
+        border-radius:15px;
+        border:0px;
+        margin-bottom: 3%;
+        font-family: Roboto;
+        font-size:26px;
+    }
+    .option2{
+        width:70%;
+        border-radius:15px;
+        border:0px;
+        font-family: Roboto;
+        font-size:26px;
+        margin-bottom: 3%;
+    }
+    .option3{
+        width:70%;
+        font-family: Roboto;
+        font-size:26px;
+        height:18%;
+        border-radius:15px;
+        border:0px;
+        margin-bottom: 3%;
+    }
+    .option4{
+        font-family: Roboto;
+        font-size:26px;
+        width:70%;
+        height:18%;
+        border-radius:15px;
+        border:0px;
+        margin-bottom: 3%;
+    }
+    .option1:hover{
+        box-shadow: 0px 0px 14px rgb(7,142,77);
+    }
+    .option2:hover{
+        box-shadow: 0px 0px 14px rgb(7,142,77);
+    }
+    .option3:hover{
+        box-shadow: 0px 0px 14px rgb(7,142,77);
+    }
+    .option4:hover{
+        box-shadow: 0px 0px 14px rgb(7,142,77);
+    }
+}
+

@@ -1,0 +1,88 @@
+@font-face
+{
+    font-family:vazir;
+    src: url(./Font/Vazir.ttf) format('truetype');
+}
+@font-face{
+    font-family:comic;
+    src:url("./style/Font/comic.ttf")
+}
+
+/* #text-box1{
+    background-color: rgba(7, 142, 77, 0.657);
+    width:37vw;
+    height:55vw;
+    margin-left:3vw;
+    margin-top:3vw;
+
+}
+#text-box2
+{
+    background-color: rgba(234, 225, 225, 0.479);
+    width:34.4vw;
+height:50vw;
+margin-left:4vw;
+margin-top:-53.15vw;
+border-radius:0px 70px 70px 0px;
+border: 5px solid rgba(0, 0, 0, 0.087);
+
+}
+
+
+#text-box3{
+    background-color: rgba(7, 142, 77, 0.657);
+    width:54vw;
+    height:130vw;
+    margin-left:41vw;
+    margin-top:-52.5vw;
+
+}
+
+#text-box4
+{
+        background-color: rgba(234, 225, 225, 0.479);
+        width:50vw;
+        height:125vw;
+        margin-left:42.6vw;
+        margin-top:-127.5vw;
+        border-radius:70px 0px  0px 70px;
+        border: 5px solid rgba(0, 0, 0, 0.087);
+
+
+}
+*/
+#amoozesh{
+    font-family:vazir;
+    direction: rtl;
+    font-size:16px;
+}
+/*
+#table{
+    font-family: vazir;
+    font-size: 15px;
+    border-collapse: collapse;
+    width: 33vw;
+    margin-left:5vw;
+    margin-top:-118vw;
+}
+
+td, th {
+    border: 2px solid rgba(7, 142, 77, 0.657);
+    text-align:center;
+    padding: 5px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(7, 142, 77, 0.326);
+  }
+
+  #zamir
+  {
+    font-family: vazir;
+    direction: rtl;
+    font-size: 18px;
+    margin-top:-20vw;
+    margin-right:66vw;
+  }
+  */
+

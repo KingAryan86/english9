@@ -1,0 +1,112 @@
+@font-face
+{
+    font-family:vazir;
+    src: url(./Font/Vazir.ttf);
+}
+@font-face{
+    font-family:comic;
+    src:url("./style/Font/comic.ttf");
+}
+@font-face{
+    font-family:roboto;
+    src:url("./style/Font/ROBOTO.TTF");
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #CBCBCB; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(7,142,77,0.65); 
+    border-radius:10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(7,142,77); 
+  }
+html{
+    background-color: #b7b7b7;
+}
+.pagetitle{
+    font-family:roboto;
+    text-align: center;
+    margin-top: -4.5vw;
+}
+.audiotitle{
+    font-family:comic;
+    text-align: center;
+    /* color:black; */
+}
+.audio{
+    text-align: center;
+
+}
+audio{
+    width:80%;
+    box-shadow: 0px 0px 15px rgb(10,56,34);
+    border-radius: 90px;
+
+}
+.audiolink:link{
+    text-decoration: none;
+    color:rgb(7,142,77);
+
+}
+.audiolink:visited{
+    text-decoration: none;
+    color:rgb(7,142,77);
+}
+.audiolink:active{
+    text-decoration: none;
+}
+.audiolink:hover{
+    text-decoration: none;
+    text-shadow: 0px 0px 5px rgb(10,56,34);
+}
+.text{
+    font-family:comic;
+    font-size:20px;
+    color:black;
+    text-align: center;
+
+    text-shadow: 0px 0px 4px rgb(10,56,34);
+    margin-bottom: 2%;
+}
+.red_text{
+    color:rgb(255, 40, 40);
+}
+.title{
+    font-family:roboto;
+    font-size:24px;
+    color:White;
+    text-align: center;
+    margin-bottom:-2%;
+    text-shadow: 0px 0px 4px rgb(10,56,34);
+}
+.rising{
+    border-radius: 24px;
+    background-color: rgba(7,142,77,0.5);
+    width:30%;
+    box-shadow: 0px 0px 18px rgb(10,56,34);
+    border: solid 4px;
+    border-color:rgb(7,142,77);
+    display:inline-block;
+    margin-left:12%;
+}
+.falling{
+    border-radius: 24px;
+    display:inline-block;
+    margin-left:15%;
+    background-color: rgba(7,142,77,0.5);
+    width:30%;
+    box-shadow: 0px 0px 18px rgb(10,56,34);
+    border: solid 4px;
+    border-color:rgb(7,142,77);
+}

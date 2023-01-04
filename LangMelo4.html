@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style/LangMelo.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <img onclick="openNav()" src="./style/pic/menu.png" class="menuimg" title="Menu"> 
+        <title>Language Melody Lesson 4</title>
+    </head>
+    <body>
+        <style>
+            @font-face{
+            font-family:comic;
+            src:url("./style/Font/comic.ttf")
+        }
+        html{
+            background-color: #b7b7b7;
+        }
+        
+              .menuimg{
+                  width:60px;
+                  height:60px; 
+                  padding-left:10px;
+                  margin-top: 5px;
+              }
+              .sidenav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 1s;
+                padding-top: 60px;
+                font-family:comic;
+        
+              }
+              
+              .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #CBCBCB;
+                display: block;
+                transition: 0.2;
+              }
+              
+              .sidenav a:hover {
+                color: rgb(7,142,77);
+              }
+              
+              .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+              }
+              
+              @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav a {font-size: 18px;}
+              }
+              /* 
+               */
+               .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+        
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #111;
+        min-width: 200px;
+        z-index: 1;
+        margin-left: 14%;
+        }
+        
+        .dropdown-content a {
+        color: #CBCBCB;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        }
+        
+        .dropdown-content a:hover {
+        background-color: #111;
+        }
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #111;}
+              </style> 
+        <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="homepage.html">Home</a>
+              <div class="dropdown">
+                <a href="./lessons.html">Lessons</a>
+                <div class="dropdown-content">
+                  <a href="./u1parts.html">Lesson 1</a>
+                  <a href="./u2parts.html">Lesson 2</a>
+                  <a href=".//u3parts.html">Lesson 3</a>
+                  <a href="./u4parts.html">Lesson 4</a>
+                  <a href="./u5parts.html">Lesson 5</a>
+                  <a href="./u6parts.html">Lesson 6</a>
+                </div>
+              </div>
+              <a href="./irregular_verbs.html">Irregular Varbs</a>
+              <a href="./livereading.html">Live Reading</a>
+              <a class="aboutus" href="#">About us</a>
+            </div>
+        <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+            </script>
+        <h1 class="pagetitle">Language Melody Lesson 4</h1>
+        <div>
+            <a class="audiolink" href="./Listening_4.html">
+                <h2 class="audiotitle">Language Melody Listening File</h2>
+            </a>
+            <div class="audio">
+              <audio controls>
+                <source src="./Lesson4/Listening/Language melody_mixdown.mp3">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+          <div>
+                <p class="text">
+                <span class="red_text">Clara:</span>
+                 Excuse me sir!I'm lost.<br>
+                <span class="red_text">Police officer:</span>
+                 Don't worry.What's your name?<br>
+                <span class="red_text">Clara:</span>
+                  My name's Clara.<br>
+                <span class="red_text">Police officer:</span>
+                 Where do you live?<br>
+                <span class="red_text">Clara:</span>
+                 On Main Street,near the gas station.<br>
+                <span class="red_text">Police officer:</span>
+                 Don't worry.I can take you home.<br>
+                <span class="red_text">Clara:</span>
+                 Thank you sir.
+                </p>
+
+                <br>
+                <p class="text">
+                1.What's your name?
+                <span class="red_text">↓</span>
+                <br>2.How old are you?
+                <span class="red_text">↓</span>
+                <br>3.Where do you live?
+                <span class="red_text">↓</span>
+                <br>4.Why are you here?
+                <span class="red_text">↓</span>
+                <br>5.When does it open?
+                <span class="red_text">↓</span>
+                <br>6.Who is that man?
+                <span class="red_text">↓</span>
+              </p>
+          </div>
+    </body>
+</html>

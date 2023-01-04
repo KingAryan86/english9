@@ -1,0 +1,74 @@
+@font-face{
+    font-family:Roboto;
+    src:url("./Font/ROBOTO.TTF")
+}
+@font-face{
+    font-family:iransans;
+    src:url("./Font/IRANSANS.TTF")
+}
+@font-face{
+    font-family: comic;
+    src:url("./Font/comic.ttf")
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #CBCBCB; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(7,142,77,0.65); 
+    border-radius:10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(7,142,77); 
+  }
+.pagetitle{
+    font-family: Roboto;
+    text-align: center;
+    margin-top: -4.5vw;
+}
+.input{
+    width:75%;
+    height:1.5cm;
+    /* box-shadow: 0px 0px 25px rgb(7,142,77); */
+    border-radius: 25px;
+    margin-top: 1cm;
+    font-family: comic;
+    font-size: 28px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.readtext{
+    background-color: rgba(7,142,77,0.40);
+    margin-top:3%;
+    font-family:comic;
+    border-radius:25px;
+    border:0px;
+    padding-top:1%;
+    padding-left:2%;
+    padding-bottom:1%;
+    padding-right:2%;
+    font-size:32px;
+    /* background-color:white; */
+    text-align: center;
+    
+    /* box-shadow: 0px 0px 25px rgb(7,142,77); */
+
+}
+.readtext:hover{
+    background-color: rgba(7,142,77,0.75);
+    color:white;
+    transition-duration: 0.2s;
+}
+.main_part{
+    text-align: center;
+}
