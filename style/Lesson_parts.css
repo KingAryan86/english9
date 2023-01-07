@@ -37,11 +37,124 @@
     text-align: center;
     margin-top: -3.5%;
 }
+@media only screen and (max-width:650px){
+    .back_button{
+        background-color: #c7c7c7;
+        width:80%;
+        text-align: center;
+        margin-left:10%;
+        border-radius: 25px;
+        box-shadow: 0px 0px 40px rgb(10,56,34);
+    }
+    .conversation{
+        background-color: #d7d7d7;
+        border:0px;
+        box-shadow: 0px 0px 24px rgb(7,142,77);
+        border-radius: 22px;
+        font-family: comic;
+        font-size:24px;
+        padding:1% 3% 1% 3%;
+        margin-top:5%;
+        width:80%;
+    }
+    .conversation:hover{
+        background-color: rgb(7,142,77);
+        color:white;
+        box-shadow: 0px 0px 32px rgb(7,142,77);
+    }
+    
+    .grammer{
+        background-color: #d7d7d7;
+        border:0px;
+        width:80%;
+        box-shadow: 0px 0px 24px rgb(7,142,77);
+        border-radius: 22px;
+        font-family: comic;
+        font-size:24px;
+        padding:1% 6.5% 1% 6.5%;
+        margin-top:5%;
+    }
+    .grammer:hover{
+        background-color: rgb(7,142,77);
+        color:white;
+        box-shadow: 0px 0px 32px rgb(7,142,77);
+    }
+    
+    .vocabulary{
+        background-color: #d7d7d7;
+        border:0px;
+        box-shadow: 0px 0px 24px rgb(7,142,77);
+        border-radius: 22px;
+        width:80%;
+        font-family: comic;
+        font-size:24px;
+        padding:1% 4.5% 1% 4.5%;
+        margin-top:5%;
+    }
+    .vocabulary:hover{
+        background-color: rgb(7,142,77);
+        color:white;
+        box-shadow: 0px 0px 32px rgb(7,142,77);
+    }
+    
+    .listening{
+        background-color: #d7d7d7;
+        border:0px;
+        box-shadow: 0px 0px 24px rgb(7,142,77);
+        border-radius: 22px;
+        font-family: comic;
+        font-size:24px;
+        padding:1% 6.5% 1% 6.5%;
+        margin-top:5%;
+        width:80%;
+    }
+    .listening:hover{
+        background-color: rgb(7,142,77);
+        color:white;
+        box-shadow: 0px 0px 32px rgb(7,142,77);
+    }
+    
+    .langmelody{
+        background-color: #d7d7d7;
+        border:0px;
+        box-shadow: 0px 0px 24px rgb(7,142,77);
+        border-radius: 22px;
+        font-family: comic;
+        font-size:24px;
+        padding:1% 6% 1% 6%;
+        width:80%;
+        margin-top:5%;
+    }
+    .langmelody:hover{
+        background-color: rgb(7,142,77);
+        color:white;
+        box-shadow: 0px 0px 32px rgb(7,142,77);
+    }
+    
+    .quiz{
+        background-color: #d7d7d7;
+        border:0px;
+        box-shadow: 0px 0px 24px rgb(7,142,77);
+        border-radius: 22px;
+        font-family: comic;
+        font-size:24px;
+        padding:1% 10% 1% 10%;
+        width:80%;
+        margin-bottom: 5%;
+        margin-top:5%;
+    }
+    .quiz:hover{
+        background-color: rgb(7,142,77);
+        color:white;
+        box-shadow: 0px 0px 32px rgb(7,142,77);
+    }
+}
+@media only screen and (min-width:650px){
 .back_button{
     background-color: #c7c7c7;
-    width:45%;
+    width:55%;
     text-align: center;
-    margin-left:27%;
+    margin-left:23%;
     border-radius: 25px;
     box-shadow: 0px 0px 40px rgb(10,56,34);
 }
@@ -51,7 +164,7 @@
     box-shadow: 0px 0px 24px rgb(7,142,77);
     border-radius: 22px;
     font-family: comic;
-    font-size:25px;
+    font-size:24px;
     padding:1% 3% 1% 3%;
     margin-top:5%;
     width:45%;
@@ -69,7 +182,7 @@
     box-shadow: 0px 0px 24px rgb(7,142,77);
     border-radius: 22px;
     font-family: comic;
-    font-size:25px;
+    font-size:24px;
     padding:1% 6.5% 1% 6.5%;
     margin-top:5%;
 }
@@ -86,7 +199,7 @@
     border-radius: 22px;
     width:45%;
     font-family: comic;
-    font-size:25px;
+    font-size:24px;
     padding:1% 4.5% 1% 4.5%;
     margin-top:5%;
 }
@@ -102,7 +215,7 @@
     box-shadow: 0px 0px 24px rgb(7,142,77);
     border-radius: 22px;
     font-family: comic;
-    font-size:25px;
+    font-size:24px;
     padding:1% 6.5% 1% 6.5%;
     margin-top:5%;
     width:45%;
@@ -119,8 +232,9 @@
     box-shadow: 0px 0px 24px rgb(7,142,77);
     border-radius: 22px;
     font-family: comic;
-    font-size:25px;
+    font-size:24px;
     padding:1% 6% 1% 6%;
+    width:45%;
     margin-top:5%;
 }
 .langmelody:hover{
@@ -135,7 +249,7 @@
     box-shadow: 0px 0px 24px rgb(7,142,77);
     border-radius: 22px;
     font-family: comic;
-    font-size:25px;
+    font-size:24px;
     padding:1% 10% 1% 10%;
     width:45%;
     margin-bottom: 5%;
@@ -145,7 +259,7 @@
     background-color: rgb(7,142,77);
     color:white;
     box-shadow: 0px 0px 32px rgb(7,142,77);
-}
+}}
 html{
     background-color: #b7b7b7;
 }
