@@ -20,7 +20,7 @@
   ::-webkit-scrollbar-track {
     background: transparent; 
   }
-   
+  html{background-color: #b7b7b7;}
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgba(7,142,77,0.65); 

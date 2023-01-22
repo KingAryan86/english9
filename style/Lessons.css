@@ -17,6 +17,7 @@
     font-size:36px;
     margin-top:-3.5%;
 }
+html{background-color: #b7b7b7;}
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
