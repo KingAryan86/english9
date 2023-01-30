@@ -36,3 +36,31 @@
     margin-top: -4.5vw;
     font-size: 36px;
 }
+.pertext{
+  font-family:vazir ;
+  font-size:18px;
+  text-align: right;
+}
+.engtext{
+  font-family:comic;
+  font-size:18px;
+  text-align: left;
+}
+.title{
+    font-family:roboto;
+    text-align: center;
+    font-size: 36px;
+}
+.icon{
+  filter: grayscale(100%);
+  width:100px;
+  height:100px;
+}
+.icon:hover{
+  filter: grayscale(0%);
+  width:120px;
+  height:120px;
+}
+.contact{
+  text-align:center;
+}

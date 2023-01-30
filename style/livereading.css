@@ -38,7 +38,7 @@
 .input{
     width:75%;
     height:1.5cm;
-    /* box-shadow: 0px 0px 25px rgb(7,142,77); */
+    box-shadow: 0px 0px 25px rgb(7,142,77);
     border-radius: 25px;
     margin-top: 1cm;
     font-family: comic;
@@ -48,26 +48,27 @@
 }
 
 .readtext{
-    background-color: rgba(7,142,77,0.40);
+    background-color: rgba(7,142,77);
     margin-top:3%;
     font-family:comic;
     border-radius:25px;
+    color:white;
     border:0px;
     padding-top:1%;
     padding-left:2%;
     padding-bottom:1%;
     padding-right:2%;
     font-size:32px;
-    /* background-color:white; */
     text-align: center;
     
-    /* box-shadow: 0px 0px 25px rgb(7,142,77); */
+    box-shadow: 0px 0px 25px rgb(7,142,77);
 
 }
 .readtext:hover{
     background-color: rgba(7,142,77,0.75);
     color:white;
     transition-duration: 0.2s;
+    box-shadow: 0px 0px 40px rgb(7,142,77);
 }
 .main_part{
     text-align: center;
