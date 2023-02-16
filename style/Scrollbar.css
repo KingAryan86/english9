@@ -1,0 +1,21 @@
+
+/* Width Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Background Scrollbar */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(7,142,77,0.65); 
+    border-radius:10px;
+  }
+  
+  /* Scrollbar on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(7,142,77); 
+  }

@@ -1,110 +1,18 @@
-    <style>
-    @font-face{
-    font-family:comic;
-    src:url("./style/Font/comic.ttf")
-}
-
-      .menuimg{
-          width:60px;
-          height:60px; 
-          padding-left:10px;
-          margin-top: 5px;
-      }
-      .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 1s;
-        padding-top: 60px;
-        font-family:comic;
-
-      }
-      
-      .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #CBCBCB;
-        display: block;
-        transition: 0.2;
-      }
-      
-      .sidenav a:hover {
-        color: rgb(7,142,77);
-      }
-      
-      .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-      }
-      
-      @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-      }
-      /* 
-       */
-       .dropdown {
-position: relative;
-display: inline-block;
-}
-
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #111;
-min-width: 200px;
-z-index: 1;
-margin-left: 14%;
-}
-
-.dropdown-content a {
-color: #CBCBCB;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-}
-
-.dropdown-content a:hover {
-background-color: #111;
-}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #111;}
-      </style> 
-  <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="homepage.html">Home</a>
-      <div class="dropdown">
-        <a href="./lessons.html">Lessons</a>
-        <div class="dropdown-content">
-          <a href="./u1parts.html">Lesson 1</a>
-          <a href="./u2parts.html">Lesson 2</a>
-          <a href=".//u3parts.html">Lesson 3</a>
-          <a href="./u4parts.html">Lesson 4</a>
-          <a href="./u5parts.html">Lesson 5</a>
-          <a href="./u6parts.html">Lesson 6</a>
-        </div>
-      </div>
-      <a href="./irregular_verbs.html">Irregular Varbs</a>
-      <a href="./livereading.html">Live Reading</a>
-      <a class="aboutus" href="#">About us</a>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <a href="./lessons.html">Lessons</a>
+    <div class="dropdown-content">
+      <a href="./L1.html">Lesson 1</a>
+      <a href="./L2.html">Lesson 2</a>
+      <a href="./L3.html">Lesson 3</a>
+      <a href="./L4.html">Lesson 4</a>
+      <a href="./L5.html">Lesson 5</a>
+      <a href="./L6.html">Lesson 6</a>
     </div>
-  <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-      }
-      
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-      }
-      </script>
+  </div>
+  <a href="./irregular_verbs.html">Irregular Verbs</a>
+  <a href="./livereading.html">Live Reading</a>
+  <a class="aboutus" href="aboutus.html">About us</a>
+</div>
