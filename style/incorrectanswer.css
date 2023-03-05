@@ -1,7 +1,9 @@
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:Roboto;
     src:url("./style/Font/ROBOTO.TTF")
 }
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:iransans;
     src:url("./style/Font/IRANSANS.TTF")
@@ -17,26 +19,7 @@ html{background-color: #b7b7b7;}
     font-size:48px;
     text-align:center;
 }
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(7,142,77,0.65); 
-    border-radius:10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(7,142,77); 
-  }
+
 /* @media only screen and (min-width:768px){ */
     .backtohome{
         font-family:iransans;

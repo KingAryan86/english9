@@ -11,26 +11,7 @@
     font-family:Roboto;
     src:url("./Font/ROBOTO.TTF");
 }
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(7,142,77,0.65); 
-    border-radius:10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(7,142,77); 
-  }
+
 .title_page{
     font-family: comic;
     font-size:35px;

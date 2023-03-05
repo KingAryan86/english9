@@ -1,11 +1,14 @@
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:vazir;
     src:url("./Font/Vazir.ttf");
 }
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:comic;
     src:url("./style/Font/comic.ttf");
 }
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:roboto;
     src:url("./style/Font/ROBOTO.TTF");
@@ -13,26 +16,7 @@
 html{
     background-color: #b7b7b7;
 }
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(7,142,77,0.65); 
-    border-radius:10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(7,142,77); 
-  }
+
 .pagetitle{
     font-family:roboto;
     text-align: center;

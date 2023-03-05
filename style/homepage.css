@@ -1,36 +1,20 @@
+/* get path of font - مشخص کردن فایل فونت */
 @font-face
 {
     font-family:vazir;
     src: url("./Font/Vazir.ttf");
 }
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:comic;
     src:url("./Font/comic.ttf");
 }
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:Roboto;
     src:url("./Font/ROBOTO.TTF");
 }
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(7,142,77,0.65); 
-    border-radius:10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(7,142,77); 
-  }
+
 .pagetitle{
     font-family: Roboto;
     text-align: center;
@@ -98,3 +82,4 @@
     color:white;
     box-shadow: 0px 0px 32px rgb(7,142,77);
 }
+html{background-color: #b7b7b7;}
