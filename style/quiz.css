@@ -1,7 +1,9 @@
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:Roboto;
     src:url("./style/Font/ROBOTO.TTF")
 }
+/* get path of font - مشخص کردن فایل فونت */
 @font-face{
     font-family:iransans;
     src:url("./style/Font/IRANSANS.TTF")
@@ -143,4 +145,3 @@
         box-shadow: 0px 0px 14px rgb(7,142,77);
     }
 }
-

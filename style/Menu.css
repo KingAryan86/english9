@@ -3,77 +3,79 @@
 font-family:comic;
 src:url("./Font/comic.ttf")
 }
-/* Describtion for menu image - عکس منو */
-.menuimg{
-    width:60px; /*set width - مشخص کردن عرض */
-    height:60px; /* set height - مشخص کردن طول */
-    margin-left:10px; /* set padding left and space from left - مشخص کردن فاصله با آیتم دیگر از سمت چپ */
-    margin-top: 5px; /* set margin top and space from top - مشخص کردن فاصله با آیتم دیگر از سمت بالا */
+html{
+  background-color: #CBCBCB;
 }
+.menuimg{
+    width:60px;
+    height:60px; 
+    margin-left:10px;
+    margin-top: 5px;}
 .sidenav {
-  height: 100%; /* set height - مشخص کردن طول */
-  width: 0; /*set width - مشخص کردن عرض */
-  position: fixed; /*set position type - مشخص کردن نوع پوزیشن */
-  top: 0; /* set space from top - مشخص کردن میزان فاصله با بالا صفحه */
-  left: 0; /* set space from left - مشخص کردن میزان فاصله با چپ صفحه */
-  background-color: #111; /* set background color of side menu - مشخص کردن کردن رنگ بک گراند منو */
-  overflow-x: hidden; /* set hidden when it's close - مخفی بودن در زمان بسته بودن */
-  transition: 1s; /* set time of transition - مشخص کردن مدت زمان ترینزیشن */
-  padding-top: 60px; /* set padding top to space content to top of the side menu - ایجاد فاصله اجزا منو با بالا منو */
-  font-family:comic; /* set font family for the content - مشخص کردن فونت */
+  z-index: 1;
+  height: 100%; 
+  width: 0; 
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  background-color: #111;
+  overflow-x: hidden; 
+  transition: 1s; 
+  padding-top: 60px;
+  font-family:comic; 
 
 }
-.sidenav a { /* set this commands for a tag in sidenav div - این دستورات برای تگ  a موجود در div sidenav */
-  padding: 8px 8px 8px 32px; /* set padding to space between text and box - فاصله بین باکس و متن */
-  text-decoration: none; /* disable line under the text - از بین بردن خط زیر متن ها */
-  font-size: 25px; /* set font sizr - مشخص ککردن سایز فونت */
-  color: #CBCBCB; /* set color of text - مشخص کردن رنگ متن */
-  display: block; /* set display to block to change the decoration - تنظیم نوع نماش به عنوان بلاک به دلیل اینکه هر آپشن را در یک خط نمایش دهد.*/
-  transition: 0.2; /* set transition time - مشخص کردن تایم ترزیشن */
+.sidenav a { 
+  padding: 8px 8px 8px 32px; 
+  text-decoration: none; 
+  font-size: 25px; 
+  color: #CBCBCB; 
+  display: block;
+  transition: 0.2;
 }
 
 .sidenav a:hover {
-  color: rgb(7,142,77); /* set color of text when hover - رنک هاور */
+  color: rgb(7,142,77);
 }
 
 .sidenav .closebtn {
-  position: absolute; /*set position method to absolute - مشخص کردن نوع قرارگیری */
-  top: 0; /* set space from top - مشخص کردن میزان فاصله با بالا صفحه */
-  right: 25px; /* set space from right - مشخص کردن میزان فاصله با راست صفحه */
-  font-size: 36px; /* set font sizr - مشخص کردن سایز فونت */
-  margin-left: 50px; /* set padding left and space from left - مشخص کردن فاصله با آیتم دیگر از سمت چپ */
+  position: absolute; 
+  top: 0; 
+  right: 25px; 
+  font-size: 36px; 
+  margin-left: 50px; 
 }
-/* set this command for run in screens with width lower than 450px - اجرا دستورات برای صفحه هایی با عرض کمتر از 450 پیکسل */
+
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;} /* set padding left and space from left - مشخص کردن فاصله با آیتم دیگر از سمت چپ */
-  .sidenav a {font-size: 18px;}/* set font sizr - مشخص ککردن سایز فونت */
+  .sidenav {padding-top: 15px;} 
+  .sidenav a {font-size: 18px;}
 }
 
  .dropdown {
-position: relative; /*set position to relative - مشخص کردن نوع پوزیشن */
-display: inline-block;/*set display to inline block - مشخص کردن نوع نمایش */
+position: relative; 
+display: inline-block;
 }
 
 .dropdown-content {
-display: none;/*set display to  none - مشخص کردن نوع نمایش */
-position: absolute;/*set position to absolute - مشخص کردن نوع پوزیشن */
-background-color: #111;/* set background color  - مشخص کردن کردن رنگ بک گراند  */
-min-width: 200px; /*define minimum width for content - مشخص کردن حداقل عرض */
-margin-left: 14%;/* set padding left and space from left - مشخص کردن فاصله با آیتم دیگر از سمت چپ */
+display: none;
+position: absolute;
+background-color: #111;
+min-width: 200px;
+margin-left: 14%;
 }
 
 .dropdown-content a {
 color: #CBCBCB;
 padding: 12px 16px;
 text-decoration: none;
-display: block;/*set display to  block - مشخص کردن نوع نمایش */
+display: block;
 }
 
 .dropdown-content a:hover {
-background-color: #111;/* set background color  - مشخص کردن کردن رنگ بک گراند  */
+background-color: #111;
 }
 
-.dropdown:hover .dropdown-content {display: block;}/*set display to  block - مشخص کردن نوع نمایش */
+.dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #111;}/* set background color  - مشخص کردن کردن رنگ بک گراند  */
+.dropdown:hover .dropbtn {background-color: #111;}
 

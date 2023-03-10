@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/quiz.css">
+    <link rel="stylesheet" href="./style/Menu.css">
+    <link rel="stylesheet" href="./style/Scrollbar.css">
+    <script src="./Javascript/Menu.js"></script>
+    <title>Quiz Lesson 3</title>
+  </head>
+  <body>
+  
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <a href="./lessons.html">Lessons</a>
+    <div class="dropdown-content">
+      <a href="./L1.html">Lesson 1</a>
+      <a href="./L2.html">Lesson 2</a>
+      <a href="./L3.html">Lesson 3</a>
+      <a href="./L4.html">Lesson 4</a>
+      <a href="./L5.html">Lesson 5</a>
+      <a href="./L6.html">Lesson 6</a>
+    </div>
+  </div>
+  <a href="./irregular_verbs.html">Irregular Verbs</a>
+  <a href="./livereading.html">Live Reading</a>
+  <a class="aboutus" href="aboutus.html">About us</a>
+</div>
+
+
+    <script>
+        function Incorrect_answer(){
+          alert("جواب درست : religious")
+        }
+        function Correct_answer(){
+          alert("جواب شما کاملا درست است. :)")
+        }
+        </script>
+        <img onclick="openNav()" src="./style/pic/menu.png" class="menuimg" title="Menu"> 
+      <h1 class="pagetitle">Quiz 3_2</h1>  
+
+      <div class="back">
+        <p class="qustion"><span class="persiantext">گزینه صحیح را انتخاب کنید.</span><br>Eid Fitr is an important ___ holiday in manu Muslim countries.</p>
+        <div>
+          <a href="Incorrectanswer.html">
+            <button onclick="Incorrect_answer()" class="option1">generous</button>
+          </a>
+          
+          <a href='Incorrectanswer.html'>
+            <button   onclick="Incorrect_answer()" class="option2">anniversary</button>
+          </a>
+      </div>
+      <div>
+          <a href="Quiz_3_3.html">
+            <button onclick="Correct_answer()" class="option3">religious</button>
+          </a>
+
+          <a href="Incorrectanswer.html">
+            <button onclick="incorrect_answer()" class="option4">serious</button>
+          </a>
+      </div>
+      </div>
+  </body>
+</html>
